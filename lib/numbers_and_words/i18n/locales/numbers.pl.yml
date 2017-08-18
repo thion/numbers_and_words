@@ -1,0 +1,51 @@
+pl:
+   numbers:
+     ones: [zero, jeden, dwa, trzy, cztery, pięć, sześć, siedem, osiem, dziewięć]
+     teens: [dziesięć, jedenaście, dwanaście, trzynaście, czternaście, piętnaście, szesnaście, siedemnaście, osiemnaście, dziewiętnaście]
+     tens: [_, dziesięć, dwadzieścia, trzydzieści, czterdzieści, pięćdziesiąt, sześćdziesiąt, siedemdziesiąt, osiemdziesiąt, dziewięćdziesiąt]
+     mega: [ones, thousands, millions, billions, trillions, quadrillions, quintillion, sextillions, septillions, octillions, nonillions, decillions]
+     hundreds: [_, sto, dwieście, trzysta, czterysta, pięćset, sześćset, siedemset, osiemset, dziewięćset]
+     thousands:
+       one: tysiąc
+       few: tysiące
+       many: tysięcy
+     millions:
+       one: milion
+       few: miliony
+       many: milionów
+     billions:
+       one: miliard
+       few: miliardy
+       many: miliardów
+     trillions:
+       one: bilion
+       few: biliony
+       many: bilionów
+     quadrillions:
+       one: biliard
+       few: biliardy
+       many: biliardów
+     quintillions:
+       one: trylion
+       few: tryliony
+       many: trylionów
+     sextillions:
+       one: tryliard
+       few: tryliardy
+       many: tryliardów
+     septillions:
+       one: kwadrylion
+       few: kwadryliony
+       many: kwadrylionów
+     octillions:
+       one: kwadryliard
+       few: kwadryliardy
+       many: kwadryliardów
+     nonillions:
+       one: kwintylion
+       few: kwintyliony
+       many: kwintylionów
+     decillions:
+       one: kwintyliard
+       few: kwintyliardy
+       many: kwintyliardów
