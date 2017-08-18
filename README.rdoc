@@ -39,6 +39,7 @@ Converte números em letras utilizando a biblioteca I18n.
 * Česky [cs]
 * Português [pt]
 * Português Brasileiro [pt-BR]
+* Polski [pl]
 
 ** Experimental
 
@@ -82,6 +83,9 @@ Converte números em letras utilizando a biblioteca I18n.
     I18n.with_locale(:cs) { 42.to_words }
     => "čtyřicetdva"
 
+    I18n.with_locale(:pl) { 42.to_words }
+    => "czterdzieści dwa"
+
     21.to_words
     => "twenty-one"
     => "veintiuno"
@@ -100,6 +104,7 @@ Converte números em letras utilizando a biblioteca I18n.
     => "tjugo-en"
     => "dvacetjedna"
     => "vinte e um"
+    => "dwadzieścia jeden"
 
     231.to_words
     => "two hundred thirty-one"
@@ -119,6 +124,7 @@ Converte números em letras utilizando a biblioteca I18n.
     => "två hundra trettio-en"
     => "dvě stě třicetjedna"
     => "duzentos e trinta e um"
+    => "dwieście trzydzieści jeden"
 
     4030.to_words
     => "four thousand thirty"
@@ -137,6 +143,7 @@ Converte números em letras utilizando a biblioteca I18n.
     => "vierthousanddertig"
     => "fyra tusen trettio"
     => "čtyři tisíce třicet"
+    => "cztery tysiące trzydzieści"
 
     1000100.to_words
     => "one million one hundred"
@@ -155,6 +162,7 @@ Converte números em letras utilizando a biblioteca I18n.
     => "één miljoen honderd"
     => "en miljoner en hundra"
     => "jeden milión jedno sto"
+    => "milion sto"
 
     1000000000000000000000000000000000.to_words
     => "one decillion"
@@ -172,6 +180,7 @@ Converte números em letras utilizando a biblioteca I18n.
     => "één decillion"
     => "en decillion"
     => "decilijon"
+    => "kwintyliard"
 
     [1, 2, 3].to_words
     => ["one", "two", "three"]
@@ -184,6 +193,7 @@ Converte números em letras utilizando a biblioteca I18n.
     => ["üks", "kaks", "kolm"]
     => ["ერთი", "ორი", "სამი"]
     => ["jedna", "dva", "tři"]
+    => ["jeden", "dwa", "trzy"]
 
     [11, 22, 133].to_words
     => ["eleven", "twenty-two", "one hundred thirty-three"]
@@ -202,6 +212,7 @@ Converte números em letras utilizando a biblioteca I18n.
     => ["elf", "tweeentwintig", "honderddrieendertig"]
     => ["elva", "tjugo-två", "en hundra trettio-tre"]
     => ["jedenáct", "dvacetdva", "jedno sto třicettři"]
+    => ["jedenaście", "dwadzieścia dwa", "sto trzydzieści trzy"]
 
     21.77.to_words
     => "twenty-one and seventy-seven hundredths"

@@ -49,7 +49,9 @@ Gem::Specification.new do |s|
     "lib/numbers_and_words/i18n/locales/numbers.se.yml",
     "lib/numbers_and_words/i18n/locales/numbers.tr.yml",
     "lib/numbers_and_words/i18n/locales/numbers.ua.yml",
+    "lib/numbers_and_words/i18n/locales/numbers.pl.yml",
     "lib/numbers_and_words/i18n/pluralization.rb",
+    "lib/numbers_and_words/i18n/plurals/pl.rb",
     "lib/numbers_and_words/i18n/plurals/cs.rb",
     "lib/numbers_and_words/i18n/plurals/fr.rb",
     "lib/numbers_and_words/i18n/plurals/lt.rb",
@@ -62,6 +64,7 @@ Gem::Specification.new do |s|
     "lib/numbers_and_words/strategies/array_joiner/languages.rb",
     "lib/numbers_and_words/strategies/array_joiner/languages/base.rb",
     "lib/numbers_and_words/strategies/array_joiner/languages/cs.rb",
+    "lib/numbers_and_words/strategies/array_joiner/languages/pl.rb",
     "lib/numbers_and_words/strategies/array_joiner/languages/en-GB.rb",
     "lib/numbers_and_words/strategies/array_joiner/languages/en.rb",
     "lib/numbers_and_words/strategies/array_joiner/languages/es.rb",
@@ -169,6 +172,7 @@ Gem::Specification.new do |s|
     "lib/numbers_and_words/translations.rb",
     "lib/numbers_and_words/translations/base.rb",
     "lib/numbers_and_words/translations/cs.rb",
+    "lib/numbers_and_words/translations/pl.rb",
     "lib/numbers_and_words/translations/de.rb",
     "lib/numbers_and_words/translations/en-GB.rb",
     "lib/numbers_and_words/translations/en.rb",
@@ -219,4 +223,3 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<rake>.freeze, [">= 0"])
   end
 end
-

@@ -2,6 +2,7 @@
 
 ### Features
   * Your contribution here.
+  * Add partial support for Polish language.
 
 ## 0.11.2 (August 14, 2017)
 
